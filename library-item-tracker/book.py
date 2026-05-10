@@ -11,3 +11,14 @@ class Book:
             self.available = "Book Not Available" 
 
         print(f"Title: {self.title}, Author: {self.author}, available: {self.available}")
+        print(f"================================")
+        
+    def borrow(self):
+        if self.available:
+            self.available = False
+            print(f"{self.title} has been borrowed!")
+            print(f"================================")
+        else:
+            print(f"{self.title} is not available")
+            print(f"================================")
+    

@@ -11,3 +11,8 @@ print(book3.title, book3.author, book3.available)
 book1.display_info()
 book2.display_info()
 book3.display_info()
+
+book1.borrow()
+book2.borrow()
+book3.borrow()
+
