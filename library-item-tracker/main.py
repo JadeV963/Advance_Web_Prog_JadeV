@@ -25,3 +25,6 @@ print(Book.library_name)
 
 print(Book.is_valid_title("Inuyasha"))
 print(Book.is_valid_title(""))
+
+
+Book.show_count()

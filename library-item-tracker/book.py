@@ -1,7 +1,8 @@
 class Book:
     library_name = "library of Paris"
+    count = 0
     def __init__(self, title, author, available):
-        
+        Book.count += 1
         self.title = title
         self.author = author
         self.available = available
@@ -30,3 +31,7 @@ class Book:
     @staticmethod
     def is_valid_title(title):
         return len(title) > 0
+    
+    @classmethod
+    def show_count(cls):
+        print(f"Total books: {cls.count}")
