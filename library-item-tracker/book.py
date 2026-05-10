@@ -7,7 +7,7 @@ class Book:
         self.available = available
 
     def display_info(self):
-        print(f"Title: {self.title}, Author: {self.author},{'Available' if self.available else 'Not Available'}")
+        print(f"BRANCH VERSION: {self.title} by {self.author}")
         print(f"----------------------------------------")
         
     def borrow(self):
