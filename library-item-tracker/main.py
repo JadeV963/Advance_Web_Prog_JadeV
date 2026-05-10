@@ -8,14 +8,3 @@ print(book1.title, book1.author, book1.available)
 print(book2.title, book2.author, book2.available)
 print(book3.title, book3.author, book3.available)
 
-book1.borrow()
-book1.display_info()
-book1.returned_book()
-
-book2.display_info()
-book2.borrow()
-book2.returned_book()
-
-book3.display_info()
-book3.borrow()
-book3.returned_book()
