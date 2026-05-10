@@ -7,9 +7,8 @@ class Book:
         self.available = available
 
     def display_info(self):
-        def display_info(self):
-            print(f"MAIN VERSION: {self.title} by {self.author}")
-            print(f"----------------------------------------")
+        print(f"BRANCH VERSION: {self.title} by {self.author}")
+        print(f"----------------------------------------")
         
     def borrow(self):
         if self.available:
