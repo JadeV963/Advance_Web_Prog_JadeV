@@ -35,3 +35,8 @@ class Book:
     @classmethod
     def show_count(cls):
         print(f"Total books: {cls.count}")
+
+    @classmethod
+    def from_string(cls, data):
+        pieces = data.split(",")
+        return cls(pieces[0], pieces[1], pieces[2] == "True")

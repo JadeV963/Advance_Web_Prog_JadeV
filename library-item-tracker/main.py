@@ -28,3 +28,6 @@ print(Book.is_valid_title(""))
 
 
 Book.show_count()
+
+book4 = Book.from_string("Tintin, Hergé, True")
+book4.display_info()
