@@ -1,14 +1,15 @@
 class Book:
     library_name = "library of Paris"
     count = 0
-    def __init__(self, title, author, available):
+    def __init__(self, title, author, available, genre="Unknow"):
         Book.count += 1
         self.title = title
         self.author = author
         self.available = available
+        self.genre = genre
 
     def display_info(self):
-        print(f"BRANCH VERSION: {self.title} by {self.author}")
+        print(f"BRANCH VERSION: {self.title} by {self.author}, Genre: {self.genre}")
         print(f"----------------------------------------")
         
     def borrow(self):
