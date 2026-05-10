@@ -7,11 +7,6 @@ class Book:
         self.available = available
 
     def display_info(self):
-        if self.available:
-            self.available = "Book Available"
-        else:
-            self.available = "Book Not Available" 
-
         print(f"Title: {self.title}, Author: {self.author},{'Available' if self.available else 'Not Available'}")
         print(f"----------------------------------------")
         
