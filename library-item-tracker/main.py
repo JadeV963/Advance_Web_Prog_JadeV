@@ -16,3 +16,6 @@ book1.borrow()
 book2.borrow()
 book3.borrow()
 
+book1.return_book()
+book2.return_book()
+book3.return_book()
