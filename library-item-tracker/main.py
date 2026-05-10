@@ -8,3 +8,6 @@ print(book1.title, book1.author, book1.available)
 print(book2.title, book2.author, book2.available)
 print(book3.title, book3.author, book3.available)
 
+book1.display_info()
+book2.display_info()
+book3.display_info()
