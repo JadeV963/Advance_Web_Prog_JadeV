@@ -12,7 +12,7 @@ class Book:
         else:
             self.available = "Book Not Available" 
 
-        print(f"Title: {self.title}, Author: {self.author}, available: {self.available}")
+        print(f"Title: {self.title}, Author: {self.author},{'Available' if self.available else 'Not Available'}")
         print(f"----------------------------------------")
         
     def borrow(self):
